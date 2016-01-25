@@ -94,8 +94,8 @@ describe("paths",function(){
 
 		var path=g.pathBetween('A','E')
 
-		assert.equal(4,path.length);
 		assert.deepEqual(['A','B','D','E'],path);
+		assert.equal(4,path.length);
 	});
 
 	it("should determine a path between vertices regardless of order of edge insertion",function(){

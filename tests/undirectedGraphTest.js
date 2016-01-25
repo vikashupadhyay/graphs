@@ -64,6 +64,8 @@ describe("paths",function(){
 		g.addVertex('C');
 		g.addVertex('D');
 		g.addVertex('E');
+		g.addVertex('F');
+		g.addVertex('G');
 	});
 
 	it("should determine a path between two adjacent vertices",function(){
